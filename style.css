@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:wght@700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@400;700&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    /* Primary */
+    --Tomato: hsl(4, 100%, 67%);
+    /* Neutral */
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.625rem;
+    background-color: var(--Charcoal-Grey);
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1.3rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+.container{
+    max-width: 1000px;
+    margin: 230px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 5rem;
+    border-radius: 1.5rem;
+    background-color: var(--White);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    padding: 0 2rem;
+}
+.requied{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.requied div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+form input{
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    width: 27rem;
+    border-radius: 1rem;
+}
+.hero-content a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--Dark-Slate-Grey);
+    color: var(--White);
+    width: 27.2rem;
+    border-radius: 1rem;
+}
+.hero-imge img{
+    
+  
+}
